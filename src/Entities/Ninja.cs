@@ -1,11 +1,10 @@
 namespace Desafio01.src.Entities
 {
-    public class Knight : Hero
+    public class Ninja : Hero
     {
-        public Knight(string name, int level, int hitPoints, int magicPoints, Enum heroType) : 
-        base(name, level, hitPoints,magicPoints, heroType)
+        public Ninja(string name, int level, int hitPoints, int magicPoints, Enum heroType) 
+        : base(name, level, hitPoints, magicPoints, heroType)
         {
-
         }
 
         public override string Attack(Hero enemy)
